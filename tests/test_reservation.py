@@ -4,6 +4,7 @@ from src.reservation import Reservation
 from src.type_forfait_enum import TypeForfait
 from src.type_sport_enum import TypeSport
 
+# Test d'intégration pour la classe Reservation
 def test_creation_reservation():
     joueur = Joueur("Alice", TypeForfait.Forfait)
     salle = Salle(10, True, [], TypeSport.Tennis)
