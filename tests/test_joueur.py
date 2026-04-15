@@ -1,6 +1,7 @@
 from src.joueur import Joueur
 from src.type_forfait_enum import TypeForfait
 
+# Test unitaire pour la classe Joueur
 def test_creation_joueur():
     joueur = Joueur("Alice", TypeForfait.Forfait)
     assert joueur.nom == "Alice"
